@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+.pdf {
+  width: 100%;
+  height: 10000px;
+}
+.modal-content {
+  width: 100%;
+  height: 83vh;
+}
+.img-fluid {
+  max-width: 50%;
+  margin: auto;
+}
+.card{
+    border-style: none;
+}
+.what {
+  max-width: 20%;
+}
+@media (max-width: 400px) {
+  .pdf {
+    width: 100%;
+    height: 4200px;
+  }
+  .img-fluid {
+    max-width: 20%;
+  }
+  .what {
+    max-width: 20%;
+  }
+  .face{
+      margin-top: 30px;
+  }
+}
